@@ -1,0 +1,180 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+/*
+  --- above is my css reset ---
+*/
+
+
+
+header {
+  border: white solid 2px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  
+  flex-direction: row;
+  background-color: #1F2937;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.nav {
+  padding-top: 10px;
+}
+
+.head-div {
+  border: white solid 2px;
+  color:#f9faf8;
+
+  font-size: 24px;
+  flex: 2 1 0
+}
+
+.head-link {
+  border: white solid 2px;
+
+  
+  font-size: 18px;
+  text-align: right;
+  flex: 1 1 0;
+  align-content: space-between;
+}
+
+a {
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  color: #f9faf8;
+}
+
+
+
+
+.one {
+  display: flex;
+  flex-direction: row;
+
+  height: 435px;
+  background-color: #1F2937;
+
+  border: white solid 2px;
+
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.text-container {
+  flex: 1;
+  border: white solid 1px;
+
+  padding: 40px;
+}
+
+.img-container {
+  flex: 1;
+  border: white solid 1px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+
+/* .two {
+  align-items: center;
+  border: red solid 2px;
+  
+  text-align: center;
+}
+
+
+.illu-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  height: 200px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.illu-wrapper img {
+  border: salmon solid 2px;
+  height: 120px;
+  width: 100px;
+}
+
+
+
+.three {
+  border: red solid 2px;
+  height: 200px;
+
+  text-align: center;
+}
+
+.four {
+  border: red solid 2px;
+
+  height: 200px;
+}
+
+.third-wrapper {
+  border: red solid 2px;
+  width: 100%;
+} */
+
+
+
+
+
+footer {
+  border: peachpuff solid 2px;
+  padding-top: 33px;
+  color: #f9faf8;
+  height: 100px;
+  text-align: center;
+  background-color: #1F2937;
+}
