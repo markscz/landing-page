@@ -43,135 +43,188 @@
   --- above is my css reset ---
 */
 
-
-
 header {
-  border: white solid 2px;
-  height: 100px;
-  width: 100%;
-  display: flex;
-  
-  flex-direction: row;
   background-color: #1F2937;
-  padding-left: 200px;
-  padding-right: 200px;
+
 }
 
 .nav {
-  padding-top: 10px;
+  padding: 0 200px 0 200px;
+  overflow: hidden;
 }
 
-.head-div {
-  border: white solid 2px;
-  color:#f9faf8;
+.nav a {
+  float: left;
+  text-decoration: none;
+  text-align: center;
 
+  padding-top: 20px;
+  padding-bottom: 20px; 
+ 
+}
+
+.head-text {
   font-size: 24px;
-  flex: 2 1 0
-}
-
-.head-link {
-  border: white solid 2px;
-
-  
-  font-size: 18px;
-  text-align: right;
-  flex: 1 1 0;
-  align-content: space-between;
-}
-
-a {
-  color: #E5E7EB;
-}
-
-button {
-  background-color: #3882F6;
   color: #f9faf8;
 }
 
+.nav-right {
+  float: right;
 
-
-
-.one {
-  display: flex;
-  flex-direction: row;
-
-  height: 435px;
-  background-color: #1F2937;
-
-  border: white solid 2px;
-
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
-.text-container {
-  flex: 1;
-  border: white solid 1px;
+.nav-right a{
+  color: #e5e7eb;
+  font-size: 18px;
 
-  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.one {
+  padding: 0 200px 0 200px;
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+}
+
+.hero {
+  flex: 1;
+  position: relative;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.text-container button {
+  background-color: #3882F6;
+  padding: 5px 32px;
+  border-radius: 7px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: bolder;
+  color: #f9faf8;
+  border: none;
+  text-decoration: none;
+}
+
+.text-container h1{
+  font-size: 48px;
+  font-weight: bolder;
+
+  color: #f9faf8;
+}
+
+.text-container p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-right: 20px;
 }
 
 .img-container {
-  flex: 1;
-  border: white solid 1px;
+  background-color: rgb(73, 73, 73);
 }
 
-.main-text {
-  font-size: 48px;
-  color: #f9faf8;
+.img-container p {
+  color: #e5e7eb;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-
-/* .two {
-  align-items: center;
-  border: red solid 2px;
-  
+.two {
   text-align: center;
 }
-
+.info {
+  padding: 50px 0 50px;
+  font-size: 36px;
+  font-weight: bolder;
+  color:#1F2937;
+}
 
 .illu-wrapper {
+
+  height: 350px;
+  padding: 0 200px 0 200px;
   display: flex;
   flex-direction: row;
-  flex: 1;
-
-  height: 200px;
-  width: 100%;
   justify-content: space-evenly;
+
 }
 
-.illu-wrapper img {
-  border: salmon solid 2px;
-  height: 120px;
-  width: 100px;
+.container {
+  border: #3882F6 solid 3px;
+  border-radius: 12px;
+  height: 175px;
+  width: 150px;
 }
 
-
+.sub-text {
+  width: 150px;
+}
 
 .three {
-  border: red solid 2px;
-  height: 200px;
+  height: 400px;
+  padding: 100px 375px 0 375px;
+  background-color: #e5e7eb;
 
-  text-align: center;
+  color: #1F2937;
+}
+
+.three h1 {
+  font-size: 36px;
+  
+}
+.three h3 {
+  float: right;
+  font-size: 24px;
 }
 
 .four {
-  border: red solid 2px;
-
-  height: 200px;
+  height: 400px;
+  padding: 100px 200px 0 200px;
 }
 
-.third-wrapper {
-  border: red solid 2px;
-  width: 100%;
-} */
+.fourth-wrapper {
+  border-radius: 10px;
+  height: 200px;
+  background-color: #3882F6;
+  padding: 50px 150px 50px 150px;
+  display: flex;
+  justify-content: center;
+  
+}
 
+.txt {
+  color: #f9faf8;
+  flex: 3;
+  
+}
 
+.txt h2 {
+  font-size: 36px;
+}
 
+.txt p {
+  font-size: 24px;
+}
 
+.btn {
+  flex: 1;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 45px;
+  background-color: #3882F6;
+  color: #f9faf8;
+  border-radius: 10px;
+  
+  border: #e5e7eb solid 2px;
+}
 
 footer {
-  border: peachpuff solid 2px;
   padding-top: 33px;
   color: #f9faf8;
   height: 100px;
